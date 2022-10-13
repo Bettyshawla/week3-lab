@@ -1,11 +1,12 @@
-//2.
+//1.
 for(let i = 1; i<=20; i++){
     console.log(i)
 }
+//2.
 for(let j = 0; j <= 200; j+=2){
     console.log(j)
 }
-
+//3.
 for(let k = 1; k <=100; k++){
     if(k % 3 === 0 && k % 5 === 0){
         console.log("FizzBuzz")
@@ -16,6 +17,7 @@ for(let k = 1; k <=100; k++){
     }
     console.log(k)
 }
+//4.
 const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 const sharky = ["Sharky", "shark", 20, "Left Coast"]
 const plantee = ["Plantee", "plant",  5000 , "Mordor"]
@@ -33,3 +35,9 @@ console.log(dart)
 
 wolfy[0] = "Gameboy"
 console.log(wolfy)
+
+//5.
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+for(let i of ninjaTurtles){
+    console.log(i.toUpperCase())
+}
