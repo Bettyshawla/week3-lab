@@ -98,8 +98,11 @@ console.log(whereIsWaldo)
 for(let i = 1; i <=20; i++){
     //console.log( "Love me, pet me! HSSSSSS!")
     if(i % 2 ===  0){
-        console.log("...human...why you taking pictures of me?..."|| "...the catnip made me do it..." || "...why does the red dot always get away..." )
-    } else{
+       console.log("...human...why you taking pictures of me?..."|| "...the catnip made me do it..." || "...why does the red dot always get away..." )
+    } 
+    else{
            console.log( "Love me, pet me! HSSSSSS!")
     }
 }
+
+//not random
