@@ -106,3 +106,11 @@ for(let i = 1; i <=20; i++){
 }
 
 //not random
+
+//8. median
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+
+nums.sort()
+console.log(nums)
+
+console.log(Math.floor(nums.length/2))
