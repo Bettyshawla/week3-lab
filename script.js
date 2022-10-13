@@ -82,4 +82,24 @@ console.log(favMovies)
 
 console.log(favMovies.indexOf("Fast and Furious"))
 
+//6.
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
 
+//console.log(whereIsWaldo[1])
+
+whereIsWaldo.splice(1,1)
+console.log(whereIsWaldo)
+
+// "neff" to " no one"
+//"waldo"
+
+//7.
+
+for(let i = 1; i <=20; i++){
+    //console.log( "Love me, pet me! HSSSSSS!")
+    if(i % 2 ===  0){
+        console.log("...human...why you taking pictures of me?..."|| "...the catnip made me do it..." || "...why does the red dot always get away..." )
+    } else{
+           console.log( "Love me, pet me! HSSSSSS!")
+    }
+}
