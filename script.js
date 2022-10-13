@@ -82,7 +82,7 @@ console.log(favMovies)
 
 console.log(favMovies.indexOf("Fast and Furious"))
 
-//6.
+//7.
 const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
 
 //console.log(whereIsWaldo[1])
@@ -93,7 +93,7 @@ console.log(whereIsWaldo)
 // "neff" to " no one"
 //"waldo"
 
-//7.
+//8.
 
 for(let i = 1; i <=20; i++){
     //console.log( "Love me, pet me! HSSSSSS!")
@@ -107,7 +107,7 @@ for(let i = 1; i <=20; i++){
 
 //not random
 
-//8. median
+//9. median
 const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
 
 nums.sort()
